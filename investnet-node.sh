@@ -15,7 +15,7 @@ set -Eeou pipefail
 NODE_DIR="${HOME}/.investnet-dvpnx"
 BINARY_NAME="investnet-dvpnx"
 BINARY_PATH="/usr/local/bin/${BINARY_NAME}"
-BINARY_REPO="akshiiitt/node-local-binary"
+BINARY_REPO="InvestNetwork/devnet-dvpn-node-script"
 SYSTEMD_UNIT="/etc/systemd/system/investnet-dvpn-node.service"
 API_PORT=18133
 WG_PORT=51820
